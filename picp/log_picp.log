@@ -1,0 +1,444 @@
+14 Jun 2017 16:48:20 base.py[line:152] WARNING  Not Found: /favicon.ico
+14 Jun 2017 16:48:59 views.py[line:33] DEBUG  start the server
+14 Jun 2017 16:48:59 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 08:29:16 base.py[line:152] WARNING  Not Found: /favicon.ico
+15 Jun 2017 10:20:59 views.py[line:33] DEBUG  start the server
+15 Jun 2017 10:20:59 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 10:21:45 views.py[line:33] DEBUG  start the server
+15 Jun 2017 10:21:45 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 10:21:47 views.py[line:33] DEBUG  start the server
+15 Jun 2017 10:21:47 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 10:22:30 views.py[line:33] DEBUG  start the server
+15 Jun 2017 10:22:30 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 10:23:26 views.py[line:33] DEBUG  start the server
+15 Jun 2017 10:23:26 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 10:23:29 base.py[line:152] WARNING  Not Found: /favicon.ico
+15 Jun 2017 10:23:29 views.py[line:77] DEBUG  start picp web server...
+15 Jun 2017 10:23:29 views.py[line:33] DEBUG  start the server
+15 Jun 2017 10:23:29 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 10:23:49 views.py[line:33] DEBUG  start the server
+15 Jun 2017 10:23:49 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 10:26:12 views.py[line:33] DEBUG  start the server
+15 Jun 2017 10:26:12 views.py[line:43] ERROR  提交的内容为空
+15 Jun 2017 10:26:12 exception.py[line:132] ERROR  Internal Server Error: /addPicp/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/picp/picpweb\views.py", line 44, in addPicp
+    return render_to_response('index.html', rlt)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: index.html
+15 Jun 2017 15:32:48 views.py[line:33] DEBUG  start the server
+15 Jun 2017 15:32:48 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 15:49:00 views.py[line:77] DEBUG  start picp web server...
+15 Jun 2017 15:49:01 views.py[line:77] DEBUG  start picp web server...
+15 Jun 2017 15:49:01 base.py[line:152] WARNING  Not Found: /favicon.ico
+15 Jun 2017 15:49:01 base.py[line:152] WARNING  Not Found: /favicon.ico
+15 Jun 2017 15:49:22 views.py[line:33] DEBUG  start the server
+15 Jun 2017 15:49:22 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:11:57 views.py[line:77] DEBUG  start picp web server...
+15 Jun 2017 16:11:57 base.py[line:152] WARNING  Not Found: /favicon.ico
+15 Jun 2017 16:12:27 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:12:27 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:52:31 views.py[line:77] DEBUG  start picp web server...
+15 Jun 2017 16:52:31 base.py[line:152] WARNING  Not Found: /favicon.ico
+15 Jun 2017 16:52:35 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:52:35 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:52:42 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:52:42 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:52:48 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:52:48 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:52:52 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:52:52 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:52:56 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:52:56 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:53:01 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:53:01 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:53:04 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:53:04 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:53:08 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:53:08 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:53:13 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:53:13 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:53:17 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:53:17 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:53:22 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:53:22 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:53:27 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:53:27 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:53:31 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:53:31 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:53:35 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:53:35 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:53:40 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:53:40 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:53:45 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:53:45 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:53:49 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:53:49 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:53:59 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:53:59 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:54:05 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:54:05 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:54:10 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:54:10 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 16:54:15 views.py[line:33] DEBUG  start the server
+15 Jun 2017 16:54:15 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+15 Jun 2017 17:34:16 base.py[line:152] WARNING  Not Found: /favicon.ico
+15 Jun 2017 19:16:49 base.py[line:152] WARNING  Not Found: /favicon.ico
+15 Jun 2017 19:42:48 base.py[line:152] WARNING  Not Found: /favicon.ico
+16 Jun 2017 10:11:47 views.py[line:77] DEBUG  start picp web server...
+16 Jun 2017 10:11:49 views.py[line:77] DEBUG  start picp web server...
+16 Jun 2017 10:21:58 views.py[line:33] DEBUG  start the server
+16 Jun 2017 10:21:58 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+16 Jun 2017 10:21:59 base.py[line:152] WARNING  Not Found: /favicon.ico
+16 Jun 2017 10:22:09 base.py[line:152] WARNING  Not Found: /favicon.ico
+16 Jun 2017 10:24:06 base.py[line:152] WARNING  Not Found: /favicon.ico
+16 Jun 2017 10:24:07 views.py[line:77] DEBUG  start picp web server...
+16 Jun 2017 10:24:26 views.py[line:33] DEBUG  start the server
+16 Jun 2017 10:24:26 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+16 Jun 2017 10:24:26 views.py[line:64] WARNING  [ 数据格式不正确, 缺少=号：421126199512053130]
+16 Jun 2017 10:24:30 views.py[line:33] DEBUG  start the server
+16 Jun 2017 10:24:30 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+16 Jun 2017 10:24:31 views.py[line:33] DEBUG  start the server
+16 Jun 2017 10:24:31 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+16 Jun 2017 10:24:31 views.py[line:33] DEBUG  start the server
+16 Jun 2017 10:24:31 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+16 Jun 2017 10:42:53 views.py[line:77] DEBUG  start picp web server...
+16 Jun 2017 10:43:42 views.py[line:77] DEBUG  start picp web server...
+16 Jun 2017 10:43:42 base.py[line:152] WARNING  Not Found: /favicon.ico
+16 Jun 2017 10:45:18 views.py[line:33] DEBUG  start the server
+16 Jun 2017 10:45:18 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+16 Jun 2017 10:45:18 base.py[line:152] WARNING  Not Found: /favicon.ico
+16 Jun 2017 10:59:57 views.py[line:33] DEBUG  start the server
+16 Jun 2017 10:59:57 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+16 Jun 2017 11:33:13 base.py[line:152] WARNING  Not Found: /favicon.ico
+16 Jun 2017 16:18:07 views.py[line:77] DEBUG  start picp web server...
+16 Jun 2017 16:18:11 views.py[line:33] DEBUG  start the server
+16 Jun 2017 16:18:11 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+16 Jun 2017 16:23:41 base.py[line:152] WARNING  Not Found: /favicon.ico
+19 Jun 2017 10:14:06 views.py[line:33] DEBUG  start the server
+19 Jun 2017 10:14:06 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 11:03:32 base.py[line:152] WARNING  Not Found: /favicon.ico
+19 Jun 2017 15:43:59 views.py[line:33] DEBUG  start the server
+19 Jun 2017 15:43:59 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 15:46:51 views.py[line:33] DEBUG  start the server
+19 Jun 2017 15:46:51 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:03:20 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:03:20 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:20:31 base.py[line:152] WARNING  Not Found: /favicon.ico
+19 Jun 2017 16:24:48 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:24:48 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:27:16 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:27:16 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:27:17 base.py[line:152] WARNING  Not Found: /favicon.ico
+19 Jun 2017 16:27:17 base.py[line:152] WARNING  Not Found: /favicon.ico
+19 Jun 2017 16:40:45 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:40:45 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:40:45 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:40:45 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:41:13 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:41:13 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:41:34 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:41:34 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:41:50 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:41:50 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:42:05 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:42:05 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:42:20 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:42:20 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:42:39 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:42:39 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:42:54 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:42:54 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:43:17 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:43:17 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:43:34 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:43:34 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:43:48 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:43:48 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:44:01 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:44:01 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 16:44:36 views.py[line:77] DEBUG  start picp web server...
+19 Jun 2017 16:44:37 base.py[line:152] WARNING  Not Found: /favicon.ico
+19 Jun 2017 16:44:50 views.py[line:33] DEBUG  start the server
+19 Jun 2017 16:44:50 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 20:36:27 views.py[line:33] DEBUG  start the server
+19 Jun 2017 20:36:27 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+19 Jun 2017 20:36:28 base.py[line:152] WARNING  Not Found: /favicon.ico
+20 Jun 2017 08:43:52 views.py[line:33] DEBUG  start the server
+20 Jun 2017 08:43:52 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 09:28:40 views.py[line:33] DEBUG  start the server
+20 Jun 2017 09:28:40 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 09:56:41 views.py[line:33] DEBUG  start the server
+20 Jun 2017 09:56:41 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 09:57:05 views.py[line:33] DEBUG  start the server
+20 Jun 2017 09:57:05 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 10:14:51 views.py[line:77] DEBUG  start picp web server...
+20 Jun 2017 10:14:51 base.py[line:152] WARNING  Not Found: /favicon.ico
+20 Jun 2017 10:30:21 views.py[line:33] DEBUG  start the server
+20 Jun 2017 10:30:21 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 10:33:24 views.py[line:77] DEBUG  start picp web server...
+20 Jun 2017 10:33:24 base.py[line:152] WARNING  Not Found: /favicon.ico
+20 Jun 2017 10:33:25 views.py[line:77] DEBUG  start picp web server...
+20 Jun 2017 10:33:25 base.py[line:152] WARNING  Not Found: /favicon.ico
+20 Jun 2017 10:33:56 views.py[line:33] DEBUG  start the server
+20 Jun 2017 10:33:56 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 10:56:11 views.py[line:33] DEBUG  start the server
+20 Jun 2017 10:56:11 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 10:56:16 views.py[line:33] DEBUG  start the server
+20 Jun 2017 10:56:16 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 10:56:26 views.py[line:33] DEBUG  start the server
+20 Jun 2017 10:56:26 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 14:15:24 views.py[line:77] DEBUG  start picp web server...
+20 Jun 2017 14:15:24 base.py[line:152] WARNING  Not Found: /favicon.ico
+20 Jun 2017 14:15:49 views.py[line:33] DEBUG  start the server
+20 Jun 2017 14:15:49 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 15:04:43 views.py[line:33] DEBUG  start the server
+20 Jun 2017 15:04:43 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 15:04:57 views.py[line:33] DEBUG  start the server
+20 Jun 2017 15:04:57 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 15:05:16 views.py[line:33] DEBUG  start the server
+20 Jun 2017 15:05:16 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 15:05:27 views.py[line:33] DEBUG  start the server
+20 Jun 2017 15:05:27 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 15:50:46 views.py[line:33] DEBUG  start the server
+20 Jun 2017 15:50:46 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 20:15:53 views.py[line:33] DEBUG  start the server
+20 Jun 2017 20:15:53 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+20 Jun 2017 20:16:29 views.py[line:33] DEBUG  start the server
+20 Jun 2017 20:16:29 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+21 Jun 2017 09:23:01 views.py[line:33] DEBUG  start the server
+21 Jun 2017 09:23:01 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+21 Jun 2017 09:23:58 views.py[line:33] DEBUG  start the server
+21 Jun 2017 09:23:58 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+21 Jun 2017 09:24:12 views.py[line:33] DEBUG  start the server
+21 Jun 2017 09:24:12 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+21 Jun 2017 09:50:25 views.py[line:33] DEBUG  start the server
+21 Jun 2017 09:50:25 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+21 Jun 2017 09:50:35 views.py[line:33] DEBUG  start the server
+21 Jun 2017 09:50:35 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+21 Jun 2017 10:10:59 views.py[line:77] DEBUG  start picp web server...
+21 Jun 2017 10:11:03 base.py[line:152] WARNING  Not Found: /favicon.ico
+21 Jun 2017 10:11:36 views.py[line:33] DEBUG  start the server
+21 Jun 2017 10:11:36 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+21 Jun 2017 10:11:42 base.py[line:152] WARNING  Not Found: /favicon.ico
+21 Jun 2017 17:29:45 views.py[line:77] DEBUG  start picp web server...
+21 Jun 2017 17:30:00 views.py[line:33] DEBUG  start the server
+21 Jun 2017 17:30:00 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+21 Jun 2017 17:30:32 views.py[line:33] DEBUG  start the server
+21 Jun 2017 17:30:32 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+21 Jun 2017 17:31:03 views.py[line:33] DEBUG  start the server
+21 Jun 2017 17:31:03 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+21 Jun 2017 17:38:49 views.py[line:33] DEBUG  start the server
+21 Jun 2017 17:38:49 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+21 Jun 2017 17:38:59 views.py[line:33] DEBUG  start the server
+21 Jun 2017 17:38:59 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+21 Jun 2017 17:39:18 views.py[line:33] DEBUG  start the server
+21 Jun 2017 17:39:18 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+21 Jun 2017 17:39:29 views.py[line:33] DEBUG  start the server
+21 Jun 2017 17:39:29 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+21 Jun 2017 17:39:41 views.py[line:33] DEBUG  start the server
+21 Jun 2017 17:39:41 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 08:36:09 views.py[line:33] DEBUG  start the server
+22 Jun 2017 08:36:09 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 09:06:04 views.py[line:77] DEBUG  start picp web server...
+22 Jun 2017 09:06:04 base.py[line:152] WARNING  Not Found: /favicon.ico
+22 Jun 2017 09:42:11 views.py[line:33] DEBUG  start the server
+22 Jun 2017 09:42:11 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 09:42:13 views.py[line:33] DEBUG  start the server
+22 Jun 2017 09:42:13 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 09:42:19 views.py[line:33] DEBUG  start the server
+22 Jun 2017 09:42:19 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 10:05:08 views.py[line:33] DEBUG  start the server
+22 Jun 2017 10:05:08 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 10:05:27 views.py[line:33] DEBUG  start the server
+22 Jun 2017 10:05:27 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 10:07:17 views.py[line:33] DEBUG  start the server
+22 Jun 2017 10:07:17 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 10:07:18 base.py[line:152] WARNING  Not Found: /favicon.ico
+22 Jun 2017 10:08:05 views.py[line:33] DEBUG  start the server
+22 Jun 2017 10:08:05 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 10:08:05 base.py[line:152] WARNING  Not Found: /favicon.ico
+22 Jun 2017 10:08:06 base.py[line:152] WARNING  Not Found: /favicon.ico
+22 Jun 2017 10:08:57 views.py[line:33] DEBUG  start the server
+22 Jun 2017 10:08:57 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 15:22:53 views.py[line:77] DEBUG  start picp web server...
+22 Jun 2017 16:37:43 views.py[line:33] DEBUG  start the server
+22 Jun 2017 16:37:43 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 16:59:22 views.py[line:33] DEBUG  start the server
+22 Jun 2017 16:59:22 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 16:59:23 base.py[line:152] WARNING  Not Found: /favicon.ico
+22 Jun 2017 16:59:39 views.py[line:33] DEBUG  start the server
+22 Jun 2017 16:59:39 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 16:59:39 base.py[line:152] WARNING  Not Found: /favicon.ico
+22 Jun 2017 16:59:50 views.py[line:33] DEBUG  start the server
+22 Jun 2017 16:59:50 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 17:00:02 views.py[line:33] DEBUG  start the server
+22 Jun 2017 17:00:02 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 17:00:20 views.py[line:33] DEBUG  start the server
+22 Jun 2017 17:00:20 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 17:07:43 views.py[line:77] DEBUG  start picp web server...
+22 Jun 2017 17:07:43 base.py[line:152] WARNING  Not Found: /favicon.ico
+22 Jun 2017 17:07:51 views.py[line:33] DEBUG  start the server
+22 Jun 2017 17:07:51 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 17:07:52 base.py[line:152] WARNING  Not Found: /favicon.ico
+22 Jun 2017 19:07:41 views.py[line:33] DEBUG  start the server
+22 Jun 2017 19:07:41 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 19:07:51 views.py[line:33] DEBUG  start the server
+22 Jun 2017 19:07:51 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 19:08:05 views.py[line:33] DEBUG  start the server
+22 Jun 2017 19:08:05 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 19:08:18 views.py[line:33] DEBUG  start the server
+22 Jun 2017 19:08:18 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 19:31:51 base.py[line:152] WARNING  Not Found: /favicon.ico
+22 Jun 2017 19:41:26 views.py[line:33] DEBUG  start the server
+22 Jun 2017 19:41:26 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 19:51:22 views.py[line:33] DEBUG  start the server
+22 Jun 2017 19:51:22 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+22 Jun 2017 19:53:35 views.py[line:33] DEBUG  start the server
+22 Jun 2017 19:53:35 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+23 Jun 2017 14:36:35 views.py[line:77] DEBUG  start picp web server...
+23 Jun 2017 14:36:46 views.py[line:33] DEBUG  start the server
+23 Jun 2017 14:36:46 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+23 Jun 2017 14:36:46 views.py[line:64] WARNING  [ 数据格式不正确, 缺少=号：32010619800101029x]
+23 Jun 2017 14:37:02 views.py[line:33] DEBUG  start the server
+23 Jun 2017 14:37:02 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+23 Jun 2017 14:44:50 views.py[line:33] DEBUG  start the server
+23 Jun 2017 14:44:50 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+23 Jun 2017 15:50:54 views.py[line:33] DEBUG  start the server
+23 Jun 2017 15:50:54 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+23 Jun 2017 15:50:58 views.py[line:77] DEBUG  start picp web server...
+23 Jun 2017 15:50:58 base.py[line:152] WARNING  Not Found: /favicon.ico
+23 Jun 2017 15:51:03 views.py[line:33] DEBUG  start the server
+23 Jun 2017 15:51:03 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+23 Jun 2017 15:52:35 views.py[line:77] DEBUG  start picp web server...
+23 Jun 2017 15:52:35 base.py[line:152] WARNING  Not Found: /favicon.ico
+23 Jun 2017 15:53:16 views.py[line:33] DEBUG  start the server
+23 Jun 2017 15:53:16 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+23 Jun 2017 15:53:16 base.py[line:152] WARNING  Not Found: /favicon.ico
+23 Jun 2017 16:24:08 views.py[line:33] DEBUG  start the server
+23 Jun 2017 16:24:08 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+23 Jun 2017 16:33:44 views.py[line:33] DEBUG  start the server
+23 Jun 2017 16:33:44 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+23 Jun 2017 16:35:01 views.py[line:33] DEBUG  start the server
+23 Jun 2017 16:35:01 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+26 Jun 2017 09:14:50 base.py[line:152] WARNING  Not Found: /favicon.ico
+26 Jun 2017 09:18:45 views.py[line:33] DEBUG  start the server
+26 Jun 2017 09:18:45 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+26 Jun 2017 09:18:58 views.py[line:33] DEBUG  start the server
+26 Jun 2017 09:18:58 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+26 Jun 2017 09:24:11 views.py[line:33] DEBUG  start the server
+26 Jun 2017 09:24:11 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+26 Jun 2017 09:24:12 base.py[line:152] WARNING  Not Found: /favicon.ico
+26 Jun 2017 09:24:31 views.py[line:33] DEBUG  start the server
+26 Jun 2017 09:24:31 views.py[line:43] ERROR  提交的内容为空
+26 Jun 2017 09:24:31 exception.py[line:132] ERROR  Internal Server Error: /addPicp/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/picp/picpweb\views.py", line 44, in addPicp
+    return render_to_response('index.html', rlt)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: index.html
+26 Jun 2017 09:24:34 views.py[line:33] DEBUG  start the server
+26 Jun 2017 09:24:34 views.py[line:43] ERROR  提交的内容为空
+26 Jun 2017 09:24:34 exception.py[line:132] ERROR  Internal Server Error: /addPicp/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/picp/picpweb\views.py", line 44, in addPicp
+    return render_to_response('index.html', rlt)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: index.html
+26 Jun 2017 09:24:38 views.py[line:77] DEBUG  start picp web server...
+26 Jun 2017 09:24:53 views.py[line:77] DEBUG  start picp web server...
+26 Jun 2017 09:24:53 base.py[line:152] WARNING  Not Found: /favicon.ico
+26 Jun 2017 09:24:54 views.py[line:77] DEBUG  start picp web server...
+26 Jun 2017 09:24:54 base.py[line:152] WARNING  Not Found: /favicon.ico
+26 Jun 2017 09:25:05 views.py[line:77] DEBUG  start picp web server...
+26 Jun 2017 09:25:38 views.py[line:77] DEBUG  start picp web server...
+26 Jun 2017 09:26:17 views.py[line:33] DEBUG  start the server
+26 Jun 2017 09:26:17 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+26 Jun 2017 09:56:43 views.py[line:33] DEBUG  start the server
+26 Jun 2017 09:56:43 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+26 Jun 2017 09:56:44 base.py[line:152] WARNING  Not Found: /favicon.ico
+26 Jun 2017 09:56:53 views.py[line:33] DEBUG  start the server
+26 Jun 2017 09:56:53 views.py[line:43] ERROR  提交的内容为空
+26 Jun 2017 09:56:53 exception.py[line:132] ERROR  Internal Server Error: /addPicp/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/picp/picpweb\views.py", line 44, in addPicp
+    return render_to_response('index.html', rlt)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django-1.10.6-py2.7.egg\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: index.html
+26 Jun 2017 09:56:59 views.py[line:77] DEBUG  start picp web server...
+26 Jun 2017 09:59:14 views.py[line:77] DEBUG  start picp web server...
+26 Jun 2017 09:59:14 base.py[line:152] WARNING  Not Found: /favicon.ico
+26 Jun 2017 09:59:22 views.py[line:33] DEBUG  start the server
+26 Jun 2017 09:59:22 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+26 Jun 2017 09:59:22 base.py[line:152] WARNING  Not Found: /favicon.ico
+26 Jun 2017 10:02:21 views.py[line:77] DEBUG  start picp web server...
+26 Jun 2017 10:02:21 base.py[line:152] WARNING  Not Found: /favicon.ico
+26 Jun 2017 10:02:40 base.py[line:152] WARNING  Not Found: /favicon.ico
+26 Jun 2017 10:03:12 views.py[line:33] DEBUG  start the server
+26 Jun 2017 10:03:12 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+26 Jun 2017 10:03:44 views.py[line:33] DEBUG  start the server
+26 Jun 2017 10:03:44 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+26 Jun 2017 10:04:02 views.py[line:33] DEBUG  start the server
+26 Jun 2017 10:04:02 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+26 Jun 2017 10:04:32 views.py[line:33] DEBUG  start the server
+26 Jun 2017 10:04:32 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+26 Jun 2017 11:09:40 base.py[line:152] WARNING  Not Found: /favicon.ico
+26 Jun 2017 14:19:44 views.py[line:77] DEBUG  start picp web server...
+26 Jun 2017 14:52:09 views.py[line:77] DEBUG  start picp web server...
+26 Jun 2017 14:52:09 base.py[line:152] WARNING  Not Found: /favicon.ico
+26 Jun 2017 14:52:20 views.py[line:33] DEBUG  start the server
+26 Jun 2017 14:52:20 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+26 Jun 2017 15:47:14 views.py[line:33] DEBUG  start the server
+26 Jun 2017 15:47:14 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+26 Jun 2017 15:51:41 views.py[line:33] DEBUG  start the server
+26 Jun 2017 15:51:41 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg
+26 Jun 2017 16:23:50 views.py[line:77] DEBUG  start picp web server...
+26 Jun 2017 16:23:50 base.py[line:152] WARNING  Not Found: /favicon.ico
+26 Jun 2017 16:24:02 views.py[line:77] DEBUG  start picp web server...
+26 Jun 2017 16:24:02 base.py[line:152] WARNING  Not Found: /favicon.ico
+26 Jun 2017 16:24:12 views.py[line:33] DEBUG  start the server
+26 Jun 2017 16:24:12 views.py[line:47] DEBUG  cfg file full path:D:/picp/PICPServerNew/id_config.cfg

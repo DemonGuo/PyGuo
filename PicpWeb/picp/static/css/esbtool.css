@@ -1,0 +1,82 @@
+#dh1 {
+	width: auto;
+	height: 100px;
+	background: #ebebeb;
+	border: double;
+	border-radius: 5px;
+}
+
+#db1 {
+	width: auto;
+	height: 600px;
+	background: beige;
+	border: groove;
+	border-radius: 5px;
+}
+
+#div_picp {
+	margin-top: 10px;
+	float: left;
+}
+
+#div_msgtest{
+	margin-top: 10px;
+	float: left;
+}
+
+.img_tool {
+	display: block;
+	margin-left: 2px;
+	margin-top: 2px;
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.shadow-text {
+	color: floralwhite;
+	background: rgba(0, 0, 0, .15);
+	padding: 2px;
+	border-radius: 4px;
+}
+
+.section-title {
+	padding-left: 10px;
+	font-size: 14px;
+	margin-top: 15px;
+	text-shadow: red;
+}
+
+.shadow-text {
+	background: rgba(0, 0, 0, .15);
+	padding: 2px;
+	border-radius: 4px;
+}
+
+* {
+	font-size: 16px;
+	font-family: 'Segoe UI', Arial, 'Microsoft Yahei', sans-serif;
+	color: inherit;
+}
+
+a:link,
+a:visited {
+	display: block;
+	margin-left: 50px;
+	margin-top: 10px;
+	width: 104px;
+	height: 104px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: aquamarine;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+a:hover,
+a:active {
+	background-color: chartreuse;
+}

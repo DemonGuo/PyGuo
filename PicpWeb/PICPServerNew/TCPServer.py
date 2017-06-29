@@ -8,25 +8,30 @@
 # @Description  =
 import base64
 import codecs
-from encodings.utf_8 import encode
+from configparser import ConfigParser
 import sys
 
-reload(sys)
+import time
+from imp import reload
+
 charset = 'utf8'
-sys.setdefaultencoding(charset)
 import os
-from SocketServer import TCPServer, BaseRequestHandler
+from socketserver import TCPServer, BaseRequestHandler, StreamRequestHandler
 import traceback
 import logging
 from xml.etree import ElementTree
 
-class MyBaseRequestHandlerr(BaseRequestHandler):
+global m_time
+m_time = ""
+
+
+class MyBaseRequestHandlerr(StreamRequestHandler):
     reqMsgTypeLen = 2
     reqLen = 1024
 
     def handle(self):
         logging.debug('客户端地址: %s', self.client_address)
-        idConf={}
+        idConf = {}
         getIdConf(idConf)
         displayIdConf(idConf, False)
 
@@ -36,7 +41,7 @@ class MyBaseRequestHandlerr(BaseRequestHandler):
                 logging.debug('[请求] 报文类型: %s', msgType)
 
                 reqData = self.receive()
-                logging.debug('[请求] 报文: %s', unicode(reqData, 'gbk'))
+                logging.debug('[请求] 报文: %s', reqData.decode('gbk'))
                 dXml = parseStrXml(reqData)
 
                 sSRC = dXml['HEAD'].get('SRC', '')
@@ -116,12 +121,12 @@ class MyBaseRequestHandlerr(BaseRequestHandler):
 
                 logging.debug('[返回] 响应报文: %s', rspData)
                 self.request.send(rspData.decode('utf-8').encode('gbk'))
+                # reloadCheck()
                 return
             except:
                 traceback.print_exc()
-                print "===================================================="
+                print("====================================================")
                 break
-
 
     def receive(self):
         reqData = ''
@@ -145,7 +150,7 @@ def getIdConf(idConf):
 
     pfile = codecs.open(filename, 'rb', "utf-8")
     for line in pfile:
-        if line==None or ('=' not in line) or line.startswith('#') or (len(line.split('=')) < 2):
+        if line == None or ('=' not in line) or line.startswith('#') or (len(line.split('=')) < 2):
             continue
         id = (line.split('=')[0]).strip()
         name = (line.split('=')[1]).strip()
@@ -168,8 +173,7 @@ def setLog():
                         format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s  %(message)s',
                         datefmt='%d %b %Y %H:%M:%S',
                         filename='picp.log',
-                        filemode='w',
-                        encode='gb2312'
+                        filemode='a'
                         )
     pass
 
@@ -211,29 +215,29 @@ def checkReqData(dXml):
     logging.debug('检查请求报文开始------------------')
     headlist = ['VER', 'SRC', 'DES', 'APP', 'MsgNo', 'MsgID', 'MsgRef', 'WorkDate', 'Reserve']
     # msglist = ['BankCode', 'EntrustDate', 'BusinessCode', 'UserCode', 'ID', 'Name']
-    headcheck = ['1.0', '313345010019', '100000000000', None, '0001', None, None, None, None]
+    headcheck = ['1.0', None, '100000000000', None, '0001', None, None, None, None]
     str_err = ''
-    for i in xrange(len(headlist)):
+    for i in range(len(headlist)):
         if (None != headcheck[i]) and (dXml['HEAD'].get(headlist[i], '') != headcheck[i]):
             str_err += '[checkReqData] 字段 %s, 当前值为[%s], 需要值[%s].' % \
                        (headlist[i], dXml['HEAD'][headlist[i]], headcheck[i])
-            #logging.error(str_err)
+            # logging.error(str_err)
 
-    #if '313345010019' != dXml['MSG'].get('BankCode', ''):
-    #if len(dXml['MSG'].get('BankCode', 'None')) < 12:
-        #str_err += '[checkReqData] 字段 %s, 当前值为[%s], 需要值[%s].' % \
-                   #('BankCode', dXml['MSG'].get('BankCode', ''), '313345010019')
-        #str_err += '[checkReqData] 字段 %s, 当前值为[%s], 需要长度[12].' % \
-                   #('BankCode', dXml['MSG'].get('BankCode', ''))
-        #logging.error(str_err)
+            # if '313345010019' != dXml['MSG'].get('BankCode', ''):
+            # if len(dXml['MSG'].get('BankCode', 'None')) < 12:
+            # str_err += '[checkReqData] 字段 %s, 当前值为[%s], 需要值[%s].' % \
+            # ('BankCode', dXml['MSG'].get('BankCode', ''), '313345010019')
+            # str_err += '[checkReqData] 字段 %s, 当前值为[%s], 需要长度[12].' % \
+            # ('BankCode', dXml['MSG'].get('BankCode', ''))
+            # logging.error(str_err)
 
     if dXml['MSG'].get('ID', 'None') == 'None':
         str_err += '[checkReqData] 字段 ID, 长度为0.'
-        #logging.error(str_err)
+        # logging.error(str_err)
 
     if dXml['MSG'].get('Name', 'None') == 'None':
         str_err += '[checkReqData] 字段 NAME, 长度为0.'
-        #logging.error(str_err)
+        # logging.error(str_err)
 
     if (len(str_err) > 0):
         logging.info('检查请求报文结束,检查结果[FALSE]------------------')
@@ -243,20 +247,69 @@ def checkReqData(dXml):
     return str_err
     pass
 
+
 def main():
-    host = '10.4.32.71'
-    port = 7745
-    #host = os.getenv('HOST_ADDRESS')
-    #port = int(os.getenv('PICP_PORT'))
-    #print 'host:', host, ' port:', port
+    conf = ConfigParser()
+    cfgfile = os.getcwd().replace('\\', '/') + '/picpserver.conf'
+    conf.read(cfgfile)
+    host = conf.get('base', 'host')
+    port = int(conf.get('base', 'port'))
+    # host = os.getenv('HOST_ADDRESS')
+    # port = int(os.getenv('PICP_PORT'))
+    # print 'host:', host, ' port:', port
     addr = (host, port)
     setLog()
+    print(sys.getfilesystemencoding())
     # 启动PCIP监听程序
     logging.debug("====启动PCIP监听程序, 地址：%s, 端口：%s====", host, port)
-    server = TCPServer(addr, MyBaseRequestHandlerr)
+    server = TCPServer(addr, StreamRequestHandler)
     server.serve_forever()
+    pass
+
+
+def demon():
+    # make child process and the father exit
+    try:
+        pid = os.fork()
+        if pid > 0:
+            sys.exit(0)
+    except OSError as error:
+        print("fork father process failed")
+        sys.exit(1)
+
+    # 创建新的会话，子进程成为会话的首进程
+    os.setsid()
+    # 修改工作目录的umask
+    os.umask(0)
+    # 创建孙子进程，而后子进程退出
+    try:
+        pid = os.fork()
+        if pid > 0:
+            print("Daemon PID %d" % pid)
+            sys.exit(0)
+    except OSError as error:
+        print("fork sub child process failed")
+        sys.exit(1)
+
+    run()
+    pass
+
+
+def reloadCheck():
+    conffile = cfgfile = os.getcwd().replace('\\', '/') + '/picpserver.conf'
+    global m_time
+    setLog()
+    logging.info("old modify time:[%s]" % m_time)
+    while True:
+        print ("check reload %s" % time.time())
+        if m_time != time.ctime(os.path.getmtime(conffile)):
+            logging.info("modify picpserver configs at time:[%s]" % time.ctime(os.path.getmtime(conffile)))
+            reload(main())
+            m_time = time.ctime(os.path.getmtime(conffile))
+            time.sleep(1)
     pass
 
 
 if __name__ == '__main__':
     main()
+    # threading._start_new_thread(main())

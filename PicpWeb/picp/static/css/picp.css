@@ -73,9 +73,10 @@ input.input_box{
 	text-align: left;
 	margin-left: 5px;
 	border-width: thin;
-	border: window-inset;
-	border-color: azure;
-	border-radius: 5px;	
+	border: outset;
+	border-color: aquamarine;
+	border-radius: 5px;
+	background-color: aliceblue;
 }
 
 input.button{
